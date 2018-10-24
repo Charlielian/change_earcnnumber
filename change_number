@@ -1,0 +1,52 @@
+import csv
+
+
+
+
+
+def readcsv(path,filename):
+    if path is None:
+        f = open( filename,'r',encoding = 'utf-8')
+    else:
+        f = open(path +"\\" + filename,'r',encoding = 'utf-8')
+
+
+    for line in f :
+        print(line)
+
+
+    f.close()
+
+
+
+
+
+
+
+
+
+
+if __name__ == '__main__':
+
+
+    readcsv(None,'lnhoif_1025.csv')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
