@@ -1,0 +1,2 @@
+# change_earcnnumber
+修改LTE频点序列，在不改动原有配置的情况下进行序号变动
